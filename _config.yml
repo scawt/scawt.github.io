@@ -295,7 +295,7 @@ whitelist:
   tag_archive:
     type: liquid
     path: /tags/
-  show_taxonomy: false  # set to false to hide tag/category lists on posts
+#  show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
