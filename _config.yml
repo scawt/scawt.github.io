@@ -364,5 +364,5 @@ collections:
     output: true
     permalink: /:collection/:path/
     sort_field: 'date'
-    show_date: true
+    show_date: false
     sort_reverse: true
