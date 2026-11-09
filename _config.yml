@@ -319,50 +319,28 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # all posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: false
       share: false
+      show_date: true
       related: true
       classes: wide
-  # _comic
-  - scope:
-      path: ""
-      type: comic
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      classes: wide
-      show_date: true
-  # _blog
-  - scope:
-      path: ""
-      type: blog
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      classes: wide
-      show_date: true
-
-# collections
-collections:
-  comic:
-    output: true
-    permalink: /:collection/:path/
-    sort_field: 'date'
-    show_date: true
-    sort_reverse: true
-  blog:
-    output: true
-    permalink: /:collection/:path/
-    sort_field: 'date'
-    show_date: true
-    sort_reverse: true
+  # comics overrides
+  # - scope:
+  #     path: "comic"
+  #     type: "posts"
+  #   values:
+  #     author_profile: false
+  # blogs overrides 
+  # - scope:
+  #     path: "blog"
+  #     type: "posts"
+  #   values:
+  #     author_profile: true

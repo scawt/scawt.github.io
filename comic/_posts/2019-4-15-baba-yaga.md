@@ -9,10 +9,6 @@ tags:
   - Spooky
   - Impractical Vehicles
   - WNV
-category:
-  - doodles
-  - noodles
-  - poodles
 header:
   teaser: /assets/images/comics/4.15.19.BabaYagaTease.jpg
 classes: wide

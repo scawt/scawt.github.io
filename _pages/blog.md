@@ -1,8 +1,8 @@
 ---
 title: Blog
-layout: collection
+layout: category
 permalink: /blog/
-collection: blog
+taxonomy: blog
 entries_layout: grid
 classes: wide
 sort_by: date

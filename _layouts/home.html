@@ -5,9 +5,8 @@ layout: archive
 
 {{ content }}
 <h1 class="page__title"><u><b><i>Latest Comic</b></u></i></h1>
-{% assign latest_comic = site.comic | sort: "date" | reverse | first %}
-
-{% if latest_comic %}
+{% if site.categories["comic"] %}
+  {% assign latest_comic = site.categories["comic"] | sort: "date" | reverse | first %}
   <article class="page__content" itemscope itemtype="https://schema.org">
     <header>
       <h3 class="page__title" itemprop="headline">
@@ -32,11 +31,11 @@ layout: archive
 {% else %}
   <p>No comics found.</p>
 {% endif %}
+
 <hr style="width:50%;margin-inline:auto;">
 <h1 class="page__title"><u><b><i>Latest Blog Post</b></u></i></h1>
-{% assign latest_blog = site.blog | sort: "date" | reverse | first %}
-
-{% if latest_blog %}
+{% if site.categories["blog"] %}
+  {% assign latest_blog = site.categories["blog"] | sort: "date" | reverse | first %}
   <article class="page__content" itemscope itemtype="https://schema.org">
     <header>
       <h3 class="page__title" itemprop="headline">
@@ -61,5 +60,3 @@ layout: archive
 {% else %}
   <p>No blogs found.</p>
 {% endif %}
-
-{% include paginator.html locale=locale %}
