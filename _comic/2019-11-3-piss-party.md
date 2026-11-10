@@ -1,6 +1,6 @@
 ---
 title: "Piss Party"
-date: 2019-9-24
+date: 2019-11-3
 excerpt: "I'm starting to think that dogs just be nasty sometimes, you know?"
 layout: single
 tags: 
