@@ -1,5 +1,5 @@
 ---
-title: Comic
+title: Comics
 layout: collection
 permalink: /comic-archive/
 collection: comic
