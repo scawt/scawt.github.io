@@ -9,8 +9,8 @@ tags:
   - Scrooge
   - WNV
 header:
-  teaser: /assets/images/comics/6.5.2019.ScroogeTease.jpg
+  teaser: /assets/images/comics/6.5.19.ScroogeTease.jpg
 classes: wide
 ---
-![Scrooge](/assets/images/comics/6.5.2019.Scrooge.jpg "EbenDEEZ NUTSer Scrooge, more like")
+![Scrooge](/assets/images/comics/6.5.19.Scrooge.jpg "EbenDEEZ NUTSer Scrooge, more like")
 
